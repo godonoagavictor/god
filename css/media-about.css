@@ -1,0 +1,247 @@
+@media screen and (max-width: 1440px){
+    /* header_burger */
+    .header-inner{
+        justify-content: space-between;
+        height: 60px;
+    }
+    .img-logo img{
+        max-width: 110px;
+    }
+    .responsive-menu{
+        display: none;
+    }
+    .header_burger{
+        display: block;
+    }
+    /* header_burger */
+
+    /* section-mission */
+    .wrapper_block-mission .inner_block-mission{
+        margin: 0 20px;
+    }
+    .wrapper_block-mission .inner_block-mission .container-mission h2{
+        font-size: 30px;
+    }
+    .wrapper_block-mission .inner_block-mission .container-mission .subtitle-mission p{
+        font-size: 12px;
+    }
+    .wrapper_block-mission .inner_block-mission .container-mission .container-check a svg{
+        width: 17px;
+    }
+    .wrapper_block-mission .inner_block-mission .container-mission .container-check span.text-check{
+        font-size: 12px;
+    }
+    .block-img-mission{
+        max-width: 400px;
+    }
+    .block-img-mission img{
+        width: 100%;
+    }
+    /* section-mission */
+
+    /* section-reaching */
+    .section-reaching{
+        text-align: center;
+    }
+    .block-triangle{
+        display: none;
+    }
+    .title-reaching{
+        margin: auto;
+    }
+    .wrapper_card-reaching{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-reaching{
+        margin: 15px 15px 0 0;
+    }
+    /* section-reaching */
+
+}
+@media screen and (max-width: 1200px){
+    /* section-about */
+    .section_about-us{
+        height: 300px;
+    }
+    .wrapper_about-us{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        height: 300px;
+    }
+    .wrapper_about-us h2{
+        font-size: 30px;
+    }
+    .wrapper_about-us p{
+        margin: 20px auto;
+        font-size: 15px;
+        
+    }
+    /* section-about */
+}
+@media screen and (max-width: 960px){
+    /* section-mission */
+/* ********************************************* */
+     /* col-1 */
+    .wrapper_block-mission.col-1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .inner_block-mission.col-1{
+        text-align: center;
+        order: 2;
+        
+    }
+    .wrapper_block-mission.col-1 .block-img-mission{
+        order: 1;
+        max-width: 300px;
+    }
+     .inner_block-mission .container-mission .container-check a {
+        justify-content: center;
+    }
+    /* col-1 */
+/* ********************************************* */
+
+
+
+/* ********************************************* */
+    /* col-2 */
+    .wrapper_block-mission.col-2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .wrapper_block-mission.col-2 .block-img-mission{
+        max-width: 300px;
+    }
+    .inner_block-mission.col-2{
+        text-align: center;
+    }
+    .wrapper_block-mission .inner_block-mission .container-mission .container-check.col-2{
+        margin: auto;
+    }
+    .check-col{
+        display: flex;
+        flex-direction: column;
+    }
+    .inner_block-mission.col-2 .container-mission .container-check a{
+        display: flex;
+        justify-content: flex-start;
+    }
+    /* col-2 */
+/* ********************************************* */
+    /* section-mission */
+
+
+
+
+
+
+
+/* ********************************************* */
+    /* section-reaching */
+    .section-reaching{
+        margin-top: 50px;
+        padding: 50px;
+    }
+    .wrapper_card-reaching .wrrap-conatiner{
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        width: 100%;
+        max-width: 600px;
+    }
+    .wrapper_card-reaching .card-reaching{
+        margin-left: 0;
+        max-width: 600px;
+        width: 100%;
+    }
+    .wrapper_card-reaching .card-reaching span{
+        font-size: 35px;
+    }
+    .wrapper_card-reaching .card-reaching p{
+        font-size: 14px;
+    }
+    /* section-reaching */
+/* ********************************************* */
+}
+
+
+@media screen and (max-width: 470px){
+/* ********************************************* */
+    /* section-mission */
+     /* col-1 */
+     .wrapper_block-mission .block-img-mission{
+        max-width: 200px!important;
+     }
+     .wrapper_block-mission .inner_block-mission .container-mission h2{
+         font-size: 23px;
+     }
+     .wrapper_block-mission .inner_block-mission .container-mission .subtitle-mission p{
+         font-size: 11px;
+     }
+     .wrapper_block-mission .inner_block-mission .container-mission .container-check a{
+         flex-wrap: wrap;
+
+     }
+     .wrapper_block-mission .inner_block-mission .container-mission .container-check span.text-check{
+         margin-top: 10px;
+     }
+     .wrapper_block-mission .inner_block-mission .container-mission .container-check a svg{
+         margin-top: 10px;
+     }
+     /* col-1 */
+
+     /* col-2 */
+     .wrapper_block-mission .inner_block-mission .container-mission .container-check.col-2{
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+     .check-col{
+         width: 200px;
+     }
+     /* col-2 */
+    /* section-mission */
+/* ********************************************* */
+
+/* ********************************************* */
+      /* section-reaching */
+      .wrapper_card-reaching .wrrap-conatiner{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 600px;
+    }
+      .default-title{
+          font-size: 20px;
+      }
+      .wrapper_card-reaching .wrrap-conatiner{
+          margin: 0 20px;
+      }
+      .card-reaching{
+          max-width: 250px;
+          width: 100%;
+      }
+
+    /* section-reaching */
+/* ********************************************* */
+
+}
+@media screen and (max-width: 430px){
+    /* section-about */ 
+    .wrapper_about-us h2{
+        font-size: 25px;
+    }
+    .wrapper_about-us p{
+        font-size: 13px;
+        
+    }
+    /* section-about */
+
+    /* header_burger_menu */
+    .header_burger_menu{
+      width: 100%;
+    }
+    /* header_burger_menu */
+  }
